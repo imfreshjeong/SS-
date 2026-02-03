@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ss]
+@="SSSharp.Script"
+
+[HKEY_CLASSES_ROOT\SSSharp.Script]
+@="SSSharp Script"
+
+[HKEY_CLASSES_ROOT\SSSharp.Script\shell\open\command]
+@="\"C:\\PATH\\TO\\ss.exe\" \"%1\""
